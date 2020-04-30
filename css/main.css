@@ -274,35 +274,15 @@ textarea {
     font-style: normal;
   }
 
-  #page-container {
-    position: relative;
-    min-height: 100vh;
-    text-align: center;
-  }
-
-  #content-wrap {
-    padding-top: 2rem;
-  }
-
-  #logo {
-    display: block;
-    margin: auto;
-  }
-
-  h1 {
-    font-size: 16px;
-    font-family: 'MaisonNeue', sans-serif;
-    font-weight: normal;
-  }
-
-  h2 {
-    font-size: 16px;
-    font-family: 'MaisonNeue', sans-serif;
-    font-weight: normal;
-  }
-
-  #dribbble {
-    margin: 3.5rem 0;
+  header {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 150px;
   }
 
   a {
@@ -310,13 +290,21 @@ textarea {
     text-decoration: none;
   }
 
-  header {
-    background-color: #f0f0f0;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    width: 100%;
-    height: 2rem;
+  main {
+    text-align: center;
+  }
+
+  #logo {
+    display: block;
+    margin: 2.5rem auto 0;
+  }
+
+  h1, h2 {
+    font-size: 16px;
+    font-family: 'MaisonNeue', sans-serif;
+    font-weight: normal;
+  }
+
+  #dribbble {
+    margin: 3.5rem 0;
   }
